@@ -9,7 +9,7 @@ Attached in this repo a sample CDA XML file and Signature XML file, both are val
 Attached in this repo is:
 - The CDA document, named `CDA_ROOT.XML`.
 - The signature file, named `CDA_SIGN.VALID.XML`.
-- A `guidance.txt` document, linking to various guidance on how to verify the signature. I've tried to understand these, but have been unable to get the result confirming the signature is valid.
+- A `guidance.md` document, linking to various guidance on how to verify the signature. I've tried to understand these, but have been unable to get the result confirming the signature is valid.
 
 Out of scope:
 - You do **not** need to confirm the signature is valid for the `CDA_ROOT.XML` file. I've already confirmed that with the following Ruby code.
