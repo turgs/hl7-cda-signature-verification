@@ -26,3 +26,12 @@ Out of scope:
 In scope:
 - What's I'm wanting to confirm _in this job_ is the integrity of the signature itself using OpenSSL commands I can run on Debian that has OpenSSL version 1.1.1d  10 Sep 2019.
 
+### The signature files come from:
+
+"Additional files to be used in CIS vendor tests" section of: https://developer.digitalhealth.gov.au/resources/faqs/secure-messaging-provider-directory-service-message-payload#test-data
+
+The following MDM-T02 messages should be used for these tests: [.hl7 Updated 11 March 2020]
+- MP-5.1 SHA-1 – valid signature use: [MDMT02-SHA1-Valid](https://developer.digitalhealth.gov.au/sites/default/files/mdmt02-sha1-valid.hl7)
+- MP-5.2 SHA-1 – invalid signature use: [MDMT02-SHA1-Invalid](https://developer.digitalhealth.gov.au/sites/default/files/mdmt02-sha1-invalid.hl7)
+- MP-5.3 SHA-2 – valid signature use: [MDMT02-SHA2-Valid](https://developer.digitalhealth.gov.au/sites/default/files/mdmt02-sha2-valid.hl7)
+- MP-5.4 SHA-2 – invalid signature use: [MP-5.4 SHA-2 – invalid signature](https://developer.digitalhealth.gov.au/sites/default/files/mdmt02-sha2-invalid.hl7)
