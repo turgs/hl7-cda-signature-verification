@@ -1,4 +1,5 @@
 #!/bin/bash
+# this just checks the document signature matches that in the signature file, not the integrity of the signature itself
 
 # Environment variables
 SIGNATURE_FILE=""
