@@ -1,5 +1,5 @@
 #! /bin/ruby
-# this works
+# this just checks the document signature matches that in the signature file, not the integrity of the signature itself
 
 cda_sign_file_xml = Nokogiri::XML(cda_sign_filename).remove_namespaces!
 
